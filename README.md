@@ -4,6 +4,8 @@ Miwok App
 This app displays lists of vocabulary words for the user to learn the Miwok language.
 Used in a Udacity course in the Beginning Android Nanodegree.
 
+I have modified this app. I add a navigation drawer view and ItemClickListener on items of the drawer menu. Also I modified ListView listener to a specific onclick listener on the play button of associated miwok word sounds and transferred all the audio related codes to the WordAdapter class which previously were in everey category related fragment such NumbersFragment, ColorsFragment and so on. Only one thing I did not able to do is to apply stop() in the adapter class though it is not an Activity or a Fragment.
+
 Pre-requisites
 --------------
 
